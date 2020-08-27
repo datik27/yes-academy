@@ -1,0 +1,11 @@
+.course{
+ border-bottom: 1px solid turquoise;
+ text-align: center;
+ margin: 5px;
+ padding: 5px;
+}
+.course-img{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}

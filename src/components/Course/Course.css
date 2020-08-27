@@ -1,0 +1,14 @@
+.main-container{
+    display: flex;
+}
+.course-container{
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-right: 1px solid turquoise;
+}
+.cart-container{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
