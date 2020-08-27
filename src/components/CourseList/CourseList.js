@@ -1,5 +1,6 @@
 import React from 'react';
 import './CourseList.css'
+import Button from 'react-bootstrap/Button';
 
 const CourseList = (props) => {
     //console.log(props);
@@ -13,10 +14,10 @@ const CourseList = (props) => {
             <h1>{title}</h1>
            <h3>Description : {description}</h3>
            <h2>Price : $ { price}</h2>
-           <button onClick={() => props. handleAddCourse(props.course)}>
-               
-               
-               Enroll Now</button>
+               <Button
+               onClick={() => props. handleAddCourse(props.course)} 
+                 variant="outline-success">Enroll Now</Button>{' '}
+              
 
             </div>
             
